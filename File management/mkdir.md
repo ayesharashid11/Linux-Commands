@@ -1,0 +1,3 @@
+make directory
+
+``` mkdir hello```
