@@ -18,3 +18,15 @@ for e.g -> 4.15..0-72-generic
 # Hardware
  USB -> comuter -> kernel space/ device driver -> user space -> udev -> /dev/(device name)
 
+ ```dmsg | grep -i usb```
+ ```udevadm monitor``` -> tell details of device
+ ```lspci``` -> lists all PCI devices of the system. e.g etherneths, video cards, graphic card,  raid controllers
+
+ ```lsblk``` -> lists all blocked devices in system
+ ```lscpu``` -> list number of cores, models, threads.
+
+ ```lsmem --summary``` -> list memory size of the system.
+
+ ```free -m ``` -> total memrory used in system
+ ```lshw``` -> detail hardware info.
+
