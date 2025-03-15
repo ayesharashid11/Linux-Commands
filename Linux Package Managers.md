@@ -33,3 +33,16 @@ YUM, APT, DPKG, APT-GET.
 - access high level packgae managers
 
    
+# DPKG
+1. Installation
+   ```dpkg -i telnet.deb```
+   
+2. uninstall
+   ```dpkg -r telnet.deb```
+3. List
+  ```dpkg -l telnet.deb```
+  4. Status
+   ```dpkg -s telnet.deb```
+5.  Verifying
+   ```dpkg -p telnet.deb```
+
