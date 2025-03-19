@@ -1,0 +1,10 @@
+```grep -i ^<user> etc/passwd```
+
+USERNAME:PASSWORD:UID:GID:GECOS:HOMEDIR:SHELL
+
+```grep -i ^<user> etc/shadow```
+USERNAME:PASSWORD:LASTCHANGE:MINAGE:MAXAGE:WARN:INACTIVE:EXPDATE
+
+```grep -i ^<user> etc/group```
+
+USERNAME:PASSWORD:GID:MEMBERS
